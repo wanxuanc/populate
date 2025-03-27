@@ -8,5 +8,9 @@ public class PopulateDatabase {
         for (int i = 1; i <= 5000; i++) {
             System.out.println("INSERT INTO Students ( StudentID, Name ) VALUES ( " + i + ", 'Student" + i + "' );");
         }
+
+        for (int i = 1; i <=5000; i++) {
+            System.out.println("INSERT INTO Grades ( );");
+        }
     }
 }
