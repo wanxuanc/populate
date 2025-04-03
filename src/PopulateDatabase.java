@@ -5,22 +5,24 @@ import java.util.Scanner;
 public class PopulateDatabase {
     public static void main(String[] args) {
         ArrayList<String> fileData1 = getFileData("src/department.txt");
+        ArrayList<String> fileData2 = getFileData("src/teacher.txt");
+        ArrayList<String> fileData3 = getFileData("src/assignment_types.txt");
         for (int i = 0; i <fileData1.size(); i++){
             System.out.println("INSERT INTO departments ( department_id, department_name  ) VALUES ( " + (i+1) + ", '" + fileData1.get(i) + "' );");
-        }
-        for (int i = 0; i<fileData1.size(); i++){
-            System.out.println(fileData1.get(i));
         }
 
         // INSERT INTO Teachers ( TeacherID, Name ) VALUES ( 200 , 'Teacher200 ');
         for (int i = 1; i <= 200; i++) {
-            System.out.println("INSERT INTO Teachers ( TeacherID, Name ) VALUES ( " + i + ", 'Teacher" + i + "' );");
+            System.out.println("INSERT INTO Teachers ( TeacherID, first_name, last_name ) VALUES ( " + i + ", 'Teacher', '" + i + "' );");
         }
 
         for (int i = 1; i <= 5000; i++) {
-            System.out.println("INSERT INTO students ( student_id, Name ) VALUES ( " + i + ", 'Student" + i + "' );");
+            System.out.println("INSERT INTO students ( student_id, first_name, last_name ) VALUES ( " + i + ", 'Student', '" + i + "' );");
         }
 
+        for (int i = 0; i <fileData3.size(); i++){
+            System.out.println("INSERT INTO assignment_types ( assignment_type_id, assignment_type  ) VALUES ( " + (i+1) + ", '" + fileData3.get(i) + "' );");
+        }
 
         for (int i = 1; i <= 5000; i++) {
             System.out.println("INSERT INTO Grades ( );");
@@ -42,5 +44,6 @@ public class PopulateDatabase {
         } catch (FileNotFoundException e) {
             return fileData;
         }
+
     }
 }
