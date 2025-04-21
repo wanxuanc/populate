@@ -12,8 +12,9 @@ public class PopulateDatabase {
         }
 
         // INSERT INTO Teachers ( TeacherID, Name ) VALUES ( 200 , 'Teacher200 ');
+
         for (int i = 1; i <= 200; i++) {
-            System.out.println("INSERT INTO Teachers ( teacher_id, first_name, last_name, department_id) VALUES ( " + i + ", '" + fileData2.get(i) + "'" + i + "' );");
+            System.out.println("INSERT INTO Teachers ( teacher_id, first_name, last_name, department_id) VALUES ( " + i + ", '" + fileData2.get(i).substring(fileData2.get(i).indexOf(" "), fileData2.get(i).indexOf(" ") + 1)+ "', " + i + " );");
         }
 
         for (int i = 1; i <= 5000; i++) {
