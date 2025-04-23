@@ -1,0 +1,124 @@
+1 Anatomy
+1 AP Biology
+1 AP Environmental
+1 AP Psychology
+1 Bioorganic Chemistry
+1 Genetics
+1 Introduction to Neuroscience
+1 Living Environment
+1 Living Environment Lab
+1 Environmental Sustainability
+2 Regents Chemistry
+2 AP Chemistry
+2 Chemical Engineering
+2 Organic Chemistry
+2 MICA
+2 Quantitative Analysis
+2 Forensics
+3 AP Computer Science Principles (10th Grade)
+3 AP Computer Science A
+3 Big Data: Warehousing & Analytics
+3 Computer Science & Engineering Home
+3 Cyber Security
+3 Digital Electronics (Project Lead the Way)
+3 Digital Systems Design
+3 Electrical Engineering Major
+3 Fundamentals of IT Infrastructure
+3 Green Building Construction
+3 PLTW EDD
+3 Software Engineering Major
+3 Statics
+3 Strength of Materials
+3 Web Development
+4 9th Grade English
+4 10th Grade English
+4 10th Grade: AP Capstone Seminar
+4 11th Grade English
+4 11th Grade: AP English Language & Composition
+4 12th Grade: AP Capstone Research
+4 12th Grade: AP English Literature & Composition
+4 12th Grade: Creative Writing
+4 12th Grade: Drama
+4 12th Grade: Film & Literature
+4 12th Grade: Journalism
+4 12th Grade: Life, Love & Death
+4 12th Grade: Mystery, Horror & the Supernatural
+4 12th Grade: Science Fiction & Fantasy
+4 12th Grade: Yearbook
+4 Elective: The Survey (Tech's Student Newspaper)
+5 Badminton
+5 Basketball
+5 Floor Hockey
+5 Handball
+5 Volleyball
+5 Indoor Soccer
+5 Speedball
+5 Team Handball
+5 Weight Training
+5 Indoor Track
+5 Outdoor Track
+5 Badminton
+5 Tennis
+5 Wiffle Ball
+5 Health
+6 Common Core Algebra
+6 Common Core Geometry
+6 Common Core Algebra II
+6 Pre-Calculus
+6 Calculus (non-AP)
+6 AP Calculus (AB)
+6 AP Calculus (BC)
+6 AP Statistics
+6 Multivariable Calculus
+6 Math Research
+6 Linear Algebra
+7 Regents Physics
+7 Regents Physics Labs
+7 AP Physics 1
+7 AP Physics 2
+7 AP Physics C (Mechanics)
+7 AP Physics C (E/M)
+7 Astronomy
+7 Modern Physics
+8 9th Grade Global
+8 10th Grade Regents Global History
+8 AP World History
+8 AP European History
+8 11th Grade Regents American History
+8 AP American History
+8 Participation in Government
+8 AP US Government
+8 Economics
+8 AP Macroeconomics
+8 AP Microeconomics
+8 AP Comparative Government
+8 AP Psychology
+8 AP Human Geography
+8 Sociology
+8 Cultural Anthropology
+8 Physical Anthropology
+10 Architecture
+10 Adobe Digital Video
+10 Adobe Visual Design
+10 Architectural Drawing w/CAD
+10 Digital Animation
+10 Industrial Design
+10 Media
+10 Music
+10 PLTW CEA
+10 PLTW DDP (9th Grade)
+10 Video & Audio
+10 Visual Arts & CTE Home
+11 Chinese
+11 AP Chinese Language and Culture
+11 French
+11 AP French Language and Culture
+11 German
+11 AP German Language and Culture
+11 Italian
+11 AP Italian Language and Culture
+11 Spanish
+11 Spanish IV - Pre-AP
+11 AP Spanish Language and Culture
+11 AP Spanish Literature and Culture
+
