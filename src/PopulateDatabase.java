@@ -9,6 +9,7 @@ public class PopulateDatabase {
         ArrayList<String> departments = getFileData("src/department.txt");
         ArrayList<String> teachers = getFileData("src/teacher.txt");
         ArrayList<String> assignmentTypes = getFileData("src/assignment_types.txt");
+        ArrayList<String> courses = getFileData("src/courses.txt");
 
         // Populate Departments
         for (int i = 0; i < departments.size(); i++) {
@@ -53,6 +54,24 @@ public class PopulateDatabase {
                 int periodNumber = random.nextInt(10) + 1;
                 System.out.println("INSERT INTO Course_Offering (offering_id, course_id, room_number, period_number, teacher_id) VALUES (" + offering + ", " + courseId + ", " + roomNumber + ", " + periodNumber + ", " + teacherId + ");");
             }
+        }
+
+        // Populate Courses
+        for (int i = 0; i < courses.size(); i++) {
+            String[] courseDetails = courses.get(i).split(" ");
+            String courseType = "Elective";
+            if (courses.get(i).contains("AP")) {
+                courseType = "AP";
+            } else if (courses.get(i).contains("Regents")) {
+                courseType = "Regents";
+            }
+            System.out.println("INSERT INTO Courses " +
+                    "(course_id, course_type, course_name, department_id) " +
+                    "VALUES ("
+                    + (i + 1) + ", '"
+                    + courseType + "', '"
+                    + courses.get(i).substring(courses.get(i).indexOf(" ") + 1) + "', '"
+                    + courseDetails[0] + ");");
         }
 
         // Populate Rosters

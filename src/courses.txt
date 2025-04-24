@@ -65,7 +65,7 @@
 6 Common Core Geometry
 6 Common Core Algebra II
 6 Pre-Calculus
-6 Calculus (non-AP)
+6 Calculus
 6 AP Calculus (AB)
 6 AP Calculus (BC)
 6 AP Statistics
@@ -118,7 +118,7 @@
 11 Italian
 11 AP Italian Language and Culture
 11 Spanish
-11 Spanish IV - Pre-AP
+11 Spanish IV
 11 AP Spanish Language and Culture
 11 AP Spanish Literature and Culture
 
