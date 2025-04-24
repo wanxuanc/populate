@@ -74,15 +74,21 @@ public class PopulateDatabase {
                     + courseDetails[0] + ");");
         }
 
+        // Populate Student Schedules
+//        for (int studentId = 1; studentId <= 5000; studentId++) {
+//
+//        }
+
         // Populate Rosters
         for (int studentId = 1; studentId <= 5000; studentId++) {
             for (int period = 1; period <= 10; period++) {
                 int courseId = random.nextInt(departments.size()) + 1;
-                System.out.println("INSERT INTO Rosters (roster_id, student_id, course_id, period_number) VALUES (" + studentId + period + ", " + studentId + ", " + courseId + ", " + period + ");");
+                System.out.println("INSERT INTO Rosters (roster_id, student_id, teacher_id, course_id, period_number) VALUES (" + studentId + period + ", " + studentId + ", " + courseId + ", " + period + ");");
             }
         }
 
         // Populate Assignments
+        // Tweak with schedule/roster
         for (int courseId = 1; courseId <= departments.size(); courseId++) {
             for (int assignmentId = 1; assignmentId <= 15; assignmentId++) {
                 String assignmentName = "Assignment" + assignmentId;
